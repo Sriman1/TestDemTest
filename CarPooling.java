@@ -14,7 +14,7 @@ public class CarPooling {
             if (entry1[1] > entry2[1]) 
                 return 1; 
             else
-                return -1; 
+                return 0; 
           } 
         }); 
     
