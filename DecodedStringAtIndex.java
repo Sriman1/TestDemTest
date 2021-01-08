@@ -27,7 +27,7 @@ public class DecodedStringAtIndex {
 	                      }
 	                }
 	                }
-	                start=i+1;
+	                start=i+2;
 	            }
 	    }
 	        
