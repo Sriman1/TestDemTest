@@ -12,7 +12,7 @@ public class AirCraftOptimization {
 			
 			public int compare(int[] a,int [] b) {
 				
-				return a[1]-b[1];
+				return a[0]-b[0];
 			}
 		});
 	Arrays.sort(backward,new Comparator<int[]>() {
