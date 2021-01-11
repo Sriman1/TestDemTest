@@ -16,11 +16,16 @@ public class CarPooling {
             else
                 return 0; 
           } 
+        }); 
+    //Aded more comments
+	int start=trips[0][1];
+
         });
-        //Add comments
+       
     
     
     	        int start=trips[0][1];
+
         int end=trips[0][2];
         int people=trips[0][0];
         if(people>capacity) return false;
