@@ -20,8 +20,9 @@ public class CourseSchedule {
 	        for(int i=0;i<numCourses;i++){
 	            
 	            if(!set.contains(i)){
-	                        if(cyclicDirected(adjList,set,i)) return false;
-
+	                        if(cyclicDirected(adjList,set,i)) {
+								return false;
+							}
 	            }
 	        }
 	        
